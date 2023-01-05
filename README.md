@@ -1,1 +1,2 @@
-# DhivaAuliaFitri_2108858
+# METODE NUMERIK
+- Metode
