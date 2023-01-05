@@ -1,6 +1,7 @@
 import numpy as np
 import sys
 
+#===============Mendeklarasikan Fungsi=================#
 n = int(input('Masukan angka untuk n matriks: '))
 matriksA = np.zeros((n,n+1))
 matriksHasil = np.zeros(n)
@@ -20,7 +21,7 @@ for i in range(n):
 for i in range(n):
     matriksHasil[i] = matriksA[i][n]/matriksA[i][i]
 
-
+#=================Menampilkan hasil=====================#
 print('\nHasil  : ')
 for i in range(n):
     print('X%d = %0.2f' %(i,matriksHasil[i]), end = '\t')
