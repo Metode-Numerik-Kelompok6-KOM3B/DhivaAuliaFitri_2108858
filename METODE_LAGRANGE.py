@@ -1,5 +1,6 @@
 import numpy as np
 
+#=================Deklarasikan======================#
 n = int(input('Masukkan jumlah titik: '))
 nilaiX = np.zeros((n))
 nilaiY = np.zeros((n))
@@ -9,7 +10,7 @@ for i in range(n):
     nilaiX[i] = float(input( 'nilaiX['+str(i)+']='))
     nilaiY[i] = float(input( 'nilaiY['+str(i)+']='))
     
-#===========Mendeteksi titik Interpolasi=============#
+#===========Mencari titik Interpolasi================#
 nilaiXP = float(input('Masukkan titik interpolasi: '))
 nilaiYP = 0
 
